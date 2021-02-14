@@ -1,2 +1,2 @@
 # Encrypto
-Military Grade 3 Encryption built using Python.
+## Grade 3 Military Encryption Software developed using python

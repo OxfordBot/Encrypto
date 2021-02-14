@@ -178,8 +178,6 @@ class Encrypto:
 
         self.encrypted_text = ""
 
-        self.file = open("encrypted.txt", "w")
-
         for self.character in self.encoded_text:
 
             self.character_ord = ord(self.character)
@@ -199,13 +197,10 @@ class Encrypto:
                 
             self.character = chr(self.character_ord)
 
-            self.file.write(self.character)
 
             self.encrypted_text += self.character
 
             self.number += 1
-
-        self.file.close()
 
         return self.encrypted_text
 
